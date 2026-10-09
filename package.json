@@ -1,6 +1,9 @@
 {
   "name": "pixiv-now",
   "version": "5.0.0",
+  "engines": {
+    "node": "20.x"
+  },
   "private": true,
   "type": "module",
   "repository": "https://github.com/FreeNowOrg/PixivNow.git",
@@ -62,5 +65,5 @@
     "undici": "^8.5.0",
     "unplugin-icons": "^23.0.1"
   },
-  "packageManager": "pnpm@11.28.5"
+  "packageManager": "pnpm@9.15.0"
 }
